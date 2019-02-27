@@ -31,3 +31,60 @@
     transform: rotate(360deg);
   }
 }
+
+body, 
+.mainContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-items: center;
+}
+
+body {
+  align-content: start;
+  align-items: start;
+  background-color: rgb(243, 204, 241);
+}
+
+.mainContainer {
+  align-content: center;
+  align-items: center;
+  width: 100vw;
+  margin-top: 1vw;
+}
+
+.mainContainer a {
+  color: red;
+}
+
+.mainContainer h1 {
+  width: 100%;
+  text-align: center;
+  color: red;
+}
+
+.select {
+  margin-top: 3%;
+  margin-bottom: 15%;
+  width: 50vw;
+}
+
+.tableDashboard {
+  display: flex;
+  justify-content: space-between;
+  justify-items: start;
+  align-content: space-between;
+  align-items: center;
+  margin-top: -10%;
+  background-color: white;
+  border: 2px solid red;
+}
+
+.tableDashboard th {
+  width: 10vw;
+  border: 1px solid black;
+}
+
+.tableDashboard td, tr {
+  border: 1px solid black;
+}
